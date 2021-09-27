@@ -1,0 +1,42 @@
+.card{
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: rgb(226, 208, 208);
+    padding: 20px 20px;
+    background-color: rgb(240, 237, 232);
+
+}
+.card2{
+    margin: 50px;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: black;
+    padding: 20px 20px;
+
+}
+h1{
+    padding: 4px 40%;
+}
+
+.gender-val{
+    padding-left: 150px;
+}
+.btn-class{
+   display: flex; 
+   justify-content: space-evenly;
+
+}
+.p-button-rounded{
+   margin-left: 141px;
+   padding: 10px;
+}
+.p-button-success, .p-button-secondary{
+    padding: 10px 30px;
+}
+#id{
+    display: flex;
+}
+
+.button{
+    padding: 0px 70px;
+}
