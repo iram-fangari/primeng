@@ -1,0 +1,20 @@
+
+<mat-card style="margin:20px">
+<mat-card-title>Update User</mat-card-title>
+<div *ngIf="dataLoaded">
+  <form [formGroup]="editUserForm" (submit)="updateUser()">
+
+  <mat-form-field appearance="outline">
+    <mat-label>Username</mat-label>
+    <input matInput placeholder="Placeholder" formControlName="username">
+  </mat-form-field>
+  <br>
+  <mat-form-field appearance="outline">
+    <mat-label>Email</mat-label>
+    <input matInput placeholder="Placeholder" formControlName="email">
+    </mat-form-field><br>
+  <button mat-raised-button color="primary">Update User</button>
+
+</form>
+</div>
+</mat-card>
